@@ -1,0 +1,9 @@
+﻿<form name="newPhotosForm" role="form" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="newPhotos">select and upload new photos</label>
+        <input type="file" id="newPhotos" class="uploadFile" accept="image/*" eg-files="photos" has-files="hasFiles" multiple>
+    </div>
+    <div class="form-group">
+        <input class="btn btn-primary" type="button" ng-click="upload()" value="Upload">
+    </div>
+</form>
